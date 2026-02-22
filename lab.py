@@ -2,6 +2,7 @@ import requests
 import numpy as np
 import matplotlib.pyplot as plt
 
+#I just changed the file
 url = (
     "https://api.open-elevation.com/api/v1/lookup?locations="
     "48.164214,24.536044|48.164983,24.534836|48.165605,24.534068|"
