@@ -77,7 +77,7 @@ if __name__ == "__main__":
             y_interp = [newton_poly(coeffs_n, x_study, xi) for xi in x_range]
             error = np.abs(np.array(y_ref) - np.array(y_interp))
 
-            # Малюємо графік похибки для кожного n
+            # Малюємо графік похибки для кожного n # Малюємо графік похибки для кожного n # Малюємо графік похибки для кожного n
             axes[i].plot(x_range, error, color='red', label=f'Похибка ε(x) при n={n}')
             axes[i].fill_between(x_range, error, color='red', alpha=0.1)
             axes[i].set_title(f'Графік похибки інтерполяції (n = {n} вузлів)')
